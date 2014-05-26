@@ -18,6 +18,9 @@ git clone https://github.com/benmagro/Add-Blake-Miner-To-BAMT.git
 cd Add-Blake-Miner-To-BAMT/
 ./blake.sh
 ```
+
+Then review your bamt.conf and you blake.conf
+
 ##Donate
 
 BTC: 1GeA7ZeKV5yH68EkMQCLb2ygm9K4qotT2x
