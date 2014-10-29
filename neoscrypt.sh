@@ -31,7 +31,7 @@ patch /opt/bamt/common.pl <<.
 >         \$miner = "cgminer-neoscrypt";
 .
 cd /etc/bamt/
-patch /etc/bamt/blake.conf <<.
+patch /etc/bamt/neoscrypt.conf <<.
 19a20,23
 > "kernel" : "neoscrypt",
 > "api-listen": true,
