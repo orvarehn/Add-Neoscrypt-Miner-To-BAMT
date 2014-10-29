@@ -17,11 +17,11 @@ clear
 cp example.conf /etc/bamt/neoscrypt.conf
 cd /etc/bamt/
 patch /etc/bamt/bamt.conf <<.
-115a116
+113a114
 >   cgminer_opts: --api-listen --config /etc/bamt/neoscrypt.conf
-124a126
+115a116
 >   # Cgminer 3.7.7b "neoscrypt"
-130a133
+117a119
 >   miner-cgminer-neoscrypt: 1
 .
 patch /opt/bamt/common.pl <<.
