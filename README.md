@@ -1,7 +1,7 @@
 Add-Neoscrypt-Miner-To-BAMT
 ========================
 
-This is script will install a Neoscrypt algorithm miner within BAMT 1.6.0
+This script will install a Neoscrypt algorithm miner within BAMT 1.6.0
 
 #Minable Coins
 
