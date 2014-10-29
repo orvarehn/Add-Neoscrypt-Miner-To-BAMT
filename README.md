@@ -1,3 +1,5 @@
+THIS IS NOT WORKING YET! (Just the initial fork..)
+
 Add-Neoscrypt-Miner-To-BAMT
 ========================
 
