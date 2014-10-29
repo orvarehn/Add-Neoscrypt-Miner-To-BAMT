@@ -25,7 +25,7 @@ patch /etc/bamt/bamt.conf <<.
 >   miner-cgminer-neoscrypt: 1
 .
 patch /opt/bamt/common.pl <<.
-1477a1478,1480
+1151a1151,1510
 >       } elsif (\${\$conf}{'settings'}{'miner-cgminer-neoscrypt'}) {
 >         \$cmd = "cd /opt/miners/cgminer-neoscrypt;/usr/bin/screen -d -m -S cgminer-neoscrypt /opt/miners/cgminer-neoscrypt/cgminer --neoscrypt \$args";
 >         \$miner = "cgminer-neoscrypt";
