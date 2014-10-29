@@ -14,7 +14,7 @@ This script will install a Neoscrypt algorithm miner within BAMT 1.6.0
 ```bash
 git clone https://github.com/orvarehn/Add-Neoscrypt-Miner-To-BAMT.git
 cd Add-Neoscrypt-Miner-To-BAMT/
-./blake.sh
+./neoscrypt.sh
 ```
 
 Then review your bamt.conf and you neoscrypt.conf
