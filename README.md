@@ -1,26 +1,24 @@
-Add-Blake-Miner-To-BAMT
+Add-Neoscrypt-Miner-To-BAMT
 ========================
 
-This is script will install a blake algorithm miner within BAMT 1.6.0
+This is script will install a Neoscrypt algorithm miner within BAMT 1.6.0
 
 #Minable Coins
 
-- Blakecoin (BLC)
-- Dirac (XDQ)
-- BlakeBitcoin (Ƀ+)
-- Photon (PHO)
+- Feathercoin (FTC)
+- Phoenixcoin (PXC)
 
 
 #Instructions
 
 ```bash
-git clone https://github.com/benmagro/Add-Blake-Miner-To-BAMT.git
-cd Add-Blake-Miner-To-BAMT/
+git clone https://github.com/orvarehn/Add-Neoscrypt-Miner-To-BAMT.git
+cd Add-Neoscrypt-Miner-To-BAMT/
 ./blake.sh
 ```
 
-Then review your bamt.conf and you blake.conf
+Then review your bamt.conf and you neoscrypt.conf
 
-##Donate
+##Donate to benmargo
 
 BTC: 1GeA7ZeKV5yH68EkMQCLb2ygm9K4qotT2x
