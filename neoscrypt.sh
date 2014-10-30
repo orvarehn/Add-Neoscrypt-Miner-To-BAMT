@@ -8,9 +8,10 @@ make clean
 sleep 5
 chmod +x autogen.sh
 ./autogen.sh
-sleep 2
-CFLAGS="-O2 -Wall -march=native -I /opt/AMDAPP/include/" LDFLAGS="-L/opt/AMDAPP/lib/x86" ./configure --enable-opencl
-sleep 5
+#sleep 2
+#CFLAGS="-O2 -Wall -march=native -I /opt/AMDAPP/include/" LDFLAGS="-L/opt/AMDAPP/lib/x86" ./configure --enable-opencl
+#sleep 5
+make
 make install
 sleep 5
 clear
