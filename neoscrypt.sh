@@ -1,6 +1,9 @@
 #!/bin/sh
 mine stop
 sleep 5
+# For older versions of BAMT this might be needed...
+apt-get install libudev-dev
+
 cd /opt/miners/
 git clone https://github.com/vehre/neo-gpuminer.git cgminer-neoscrypt
 cd /opt/miners/cgminer-neoscrypt
